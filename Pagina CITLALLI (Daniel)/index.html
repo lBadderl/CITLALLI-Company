@@ -4,84 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pulido de Pisos - "CITLALLI"</title>
-    <!-- <link rel="stylesheet" href="resources/styles.css"> -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-        background-color: #F6F1F1;
-        color: #146C94;
-        font-family: 'Georgia', serif;
-        }
-        /* color de la barra de navegación */
-        .navbar {
-            background-color: #19A7CE;
-        }
-        .navbar a {
-            color: white !important;
-            font-weight: bold;
-        }
-        /* color del boton */
-        .btn-primary {
-            background-color: #146C94;
-            border: none;
-        }
-        .btn-primary:hover {
-            background-color: #19A7CE;
-        }
-        /* color del footer */
-        footer {
-            background-color: #AFD3E2;
-            color: #146C94;
-            padding: 20px 0;
-        }
-        /* carousel */
-        .carousel-item img {
-            height: 500px;
-            object-fit: cover;
-        }
-        /* Efecto de voltear tarjeta */
-        /* .flip-card {
-            background-color: transparent;
-            perspective: 1000px;
-        }
-        .flip-card-inner {
-            position: relative;
-            width: 100%;
-            height: 100%;
-            transition: transform 0.6s;
-            transform-style: preserve-3d;
-        }
-        .flip-card:hover .flip-card-inner {
-            transform: rotateY(180deg);
-        }
-        .flip-card-front, .flip-card-back {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            backface-visibility: hidden;
-            border-radius: 0.25rem;
-            overflow: hidden;
-        }
-        .flip-card-front {
-            background-color: #fff;
-        }
-        .flip-card-back {
-            background-color: #146C94;
-            color: white;
-            transform: rotateY(180deg);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
-        } */
-    </style>
+    <link rel="stylesheet" href="resources/styles.css">
+    
 </head>
 <body>
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark">
         <!-- contiene la navbar -->
         <div class="container">
-            <a class="navbar-brand" href="#">CITLALLI - PULIDO DE PISOS</a>
+            <a class="navbar-brand" href="#contacto">CITLALLI - PULIDO DE PISOS</a>
             <!-- Opciones de la navbar -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -129,54 +61,95 @@
     <section id="nosotros" class="py-5" style="background-color:#AFD3E2;">
         <div class="container text-center">
             <h2>Sobre Nosotros</h2>
-            <p>En <strong>CITLALLI</strong> llevamos más de 15 años transformando superficies en espacios de elegancia y profesionalismo. Nuestro equipo combina experiencia, tecnología de punta y compromiso para ofrecer acabados impecables en mármol, granito y otras superficies. Trabajamos exclusivamente con empresas que valoran la excelencia y la imagen corporativa.</p>
+            <p>En <strong>CITLALLI</strong> llevamos más de 15 años transformando superficies en espacios de elegancia y profesionalismo. 
+                Nuestro equipo combina experiencia, tecnología de punta y compromiso para ofrecer acabados impecables en mármol, granito y otras superficies. 
+                Trabajamos exclusivamente con empresas que valoran la excelencia y la imagen corporativa.</p>
         </div>
     </section>
 
     <!-- SERVICIOS -->
-     <!-- padding vertical y ancla para el menú -->
     <section id="servicios" class="py-5">
-        <!-- centra el texto y limita el ancho -->
         <div class="container text-center">
-            <!-- título de sección con margen inferior -->
-            <h2 class="mb-4">Nuestros Servicios</h2>
-            <!-- fila de rejilla bootstrap con "gaps" entre columnas -->
-            <div class="row g-4">
-                <!-- hace 3 columnas (en computadora hace 3 columnas; en móvil se apilan) -->
-                <div class="col-md-4">
-                    <!-- tarjeta 1 -->
-                    <div class="card h-100 shadow">
-                        <img src="https://mx.habcdn.com/photos/project/medium/pulido-de-piso-marmol-120519.jpg" class="card-img-top" alt="Pulido de mármol">
-                        <div class="card-body">
-                            <h5 class="card-title">Pulido de Mármol</h5>
-                            <p class="card-text">Recuperamos el brillo natural del mármol para un acabado impecable.</p>
-                        </div>
+          <h2 class="mb-4">Nuestros Servicios</h2>
+          <div class="row g-4">
+            <div class="col-md-4 d-flex justify-content-center">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front card shadow h-100">
+                    <img src="https://mx.habcdn.com/photos/project/medium/pulido-de-piso-marmol-120519.jpg" class="card-img-top" alt="Pulido de mármol">
+                    <div class="card-body">
+                      <h5 class="card-title">Pulido de Mármol</h5>
+                      <p class="card-text">Recuperamos el brillo natural.</p>
                     </div>
-                </div>
-                <div class="col-md-4">
-                    <!-- tarjeta 2 -->
-                    <div class="card h-100 shadow">
-                        <img src="https://dbybvapj87lmd.cloudfront.net/images/upload/3059/card/65d26e5d760643.30671380.jpg" class="card-img-top" alt="Pulido de granito">
-                        <div class="card-body">
-                            <h5 class="card-title">Pulido de Granito</h5>
-                            <p class="card-text">Tratamientos profesionales para mantener su resistencia y elegancia.</p>
-                        </div>
+                  </div>
+                  <div class="flip-card-back">
+                    <div>
+                      <h5>Incluye:</h5>
+                      <ul class="text-start">
+                        <li>Limpieza profunda</li>
+                        <li>Pulido con diamantado</li>
+                        <li>Sellado protector</li>
+                      </ul>
+                      <p><strong>Costo:</strong> $250 MXN/m²</p>
                     </div>
+                  </div>
                 </div>
-                <div class="col-md-4">
-                    <!-- tarjeta 3 -->
-                    <div class="card h-100 shadow">
-                        <img src="https://psiconcreto.com/wp-content/uploads/2020/12/reparacion-de-pisos-de-concreto-3.jpg" class="card-img-top" alt="Mantenimiento empresarial">
-                        <div class="card-body">
-                            <h5 class="card-title">Mantenimiento Empresarial</h5>
-                            <p class="card-text">Programas de mantenimiento para empresas, asegurando siempre pisos impecables.</p>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+    
+            <div class="col-md-4 d-flex justify-content-center">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front card shadow h-100">
+                    <img src="https://dbybvapj87lmd.cloudfront.net/images/upload/3059/card/65d26e5d760643.30671380.jpg" class="card-img-top" alt="Pulido de granito">
+                    <div class="card-body">
+                      <h5 class="card-title">Pulido de Granito</h5>
+                      <p class="card-text">Tratamientos profesionales.</p>
+                    </div>
+                  </div>
+                  <div class="flip-card-back">
+                    <div>
+                      <h5>Incluye:</h5>
+                      <ul class="text-start">
+                        <li>Lijado especializado</li>
+                        <li>Pulido de alto brillo</li>
+                        <li>Protección anti-manchas</li>
+                      </ul>
+                      <p><strong>Costo:</strong> $300 MXN/m²</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-md-4 d-flex justify-content-center">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front card shadow h-100">
+                    <img src="https://psiconcreto.com/wp-content/uploads/2020/12/reparacion-de-pisos-de-concreto-3.jpg" class="card-img-top" alt="Mantenimiento empresarial">
+                    <div class="card-body">
+                      <h5 class="card-title">Mantenimiento Empresarial</h5>
+                      <p class="card-text">Programas de mantenimiento.</p>
+                    </div>
+                  </div>
+                  <div class="flip-card-back">
+                    <div>
+                      <h5>Incluye:</h5>
+                      <ul class="text-start">
+                        <li>Inspección periódica</li>
+                        <li>Pulido y sellado programado</li>
+                        <li>Atención de emergencias</li>
+                      </ul>
+                      <p><strong>Costo:</strong> Desde $200 MXN/m²</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-    </section>
-
+      </section>
+      
     <!-- TESTIMONIOS -->
     <section id="testimonios" class="py-5" style="background-color:#F6F1F1;">
         <div class="container text-center">
