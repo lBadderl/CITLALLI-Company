@@ -1,0 +1,28 @@
+body {
+    background-color: #F6F1F1;
+    color: #146C94;
+    font-family: 'Georgia', serif;
+}
+.navbar {
+    background-color: #19A7CE;
+}
+.navbar a {
+    color: white !important;
+    font-weight: bold;
+}
+.btn-primary {
+    background-color: #146C94;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #19A7CE;
+}
+footer {
+    background-color: #AFD3E2;
+    color: #146C94;
+    padding: 20px 0;
+}
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
