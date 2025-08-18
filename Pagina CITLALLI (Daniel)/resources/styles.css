@@ -1,3 +1,11 @@
+/*Colores de la página:
+    #2d44b1 (azul oscuro)
+    #f5f5dc (blanco hueso)
+    #146C94 (azul claro)
+    #f6f1f1 (gris claro)
+    #c5b358 (dorado antiguo)
+*/
+
 body {
     background-color: #F6F1F1;
     color: #146C94;
@@ -5,24 +13,33 @@ body {
     }
     /* color de la barra de navegación */
     .navbar {
-        background-color: #19A7CE;
+        background-color: #2d44b1;
     }
     .navbar a {
-        color: white !important;
+        color: #f5f5dc !important;
         font-weight: bold;
     }
     /* color del boton */
     .btn-primary {
-        background-color: #146C94;
+        background-color: #000;
         border: none;
     }
     .btn-primary:hover {
-        background-color: #19A7CE;
+        background-color: #fff;
+        color: #000;
+    }
+    #contacto {
+        background-color: #2d44b1;
+        color: #f5f5dc;
+    }
+    #nosotros {
+        background-color: #2d44b1;
+        color: #f5f5dc;
     }
     /* color del footer */
     footer {
-        background-color: #AFD3E2;
-        color: #146C94;
+        background-color: #fff;
+        color: #36454f;
         padding: 20px 0;
     }
     /* carousel */
@@ -65,11 +82,11 @@ body {
     object-fit: cover;
     }
     .flip-card-front {
-    background-color: #fff;
+    background-color: #2d44b1;
     }
     .flip-card-back {
-    background-color: #146C94;
-    color: white;
+    background-color: #2d44b1;
+    color: #f5f5dc;
     transform: rotateY(180deg);
     display: flex;
     flex-direction: column;
@@ -79,5 +96,11 @@ body {
     }
 
     .card-title, .card-text {
-    color: #146C94;
+    color: #f5f5dc;
+    }
+
+    .my-4 {
+    border-top: 1px solid #c5b358;
+    margin: 20px 0;
+    background-color: #2d44b1;
     }
